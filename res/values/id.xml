@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="button_add_remove"/>
+    <item type="id" name="button_servers"/>
+    <item type="id" name="button_network_info"/>
+    <item type="id" name="button_about"/>
+    <item type="id" name="layout_fragment_container"></item>
+    <item type="id" name="horizontal_menu_scroll"/>
+    <item type="id" name="button_addServer"/>
+</resources>
