@@ -16,16 +16,17 @@ traffic on the go. This will give people power to share their content to anyone 
 Application Components: 
 1. 	User Interface - The UI is organized into different fragments controlled by menu list on the top of the activity. Following are the
 menuitems and their functions: 
-2. 	ADD/REMOVE: It contains adding & removing server options. Clicking ADD will start a new screen where the user will configure the
-server with its name, storage, connectivity, protocol & others. Clicking REMOVE will stop the server if running, delete storage and remove 
+	1. 	ADD/REMOVE: It contains adding & removing server options. Clicking ADD will start a new screen where the user will configure
+the server with its name, storage, connectivity, protocol & others. Clicking REMOVE will stop the server if running, delete storage and
+	remove 
 the entire server configuration. 
-3. 	SERVERS: It lists all the servers created, running & stopped. The user can toggle the server by clicking the list item server’s
-name. 
-4.	NETWORK INFO: It contains all the network information about the network where the device is connected like its local IP address,
-public IP address, MAC address, traffic and other statistics.
-5.	ABOUT: It’s the application information screen which contains the application description, features, developers, updates, bugs
-fixed. 
-6. 	Back-end – The backend contains all the memory management, client handling and content distribution. It uses different multitasking
+	2. 	SERVERS: It lists all the servers created, running & stopped. The user can toggle the server by clicking the list item
+server’s name. 
+	3. 	NETWORK INFO: It contains all the network information about the network where the device is connected like its local IP
+address, public IP address, MAC address, traffic and other statistics.
+	4.	ABOUT: It’s the application information screen which contains the application description, features, developers, updates,
+bugsfixed. 
+2.	Back-end – The backend contains all the memory management, client handling and content distribution. It uses different multitasking
 andmultithreading technique to keep the server running, its operations and error handling. 
 
 Flow of operation – Starting new server creates new process and objects. The server now runs on its own & handle clients in that process 
