@@ -13,7 +13,7 @@ that domain to their home IP. Then that person can port forward his mobile IP to
 efficient way to save on server prices and also having full control over our data. User can also directly monitor his server for any server 
 traffic on the go. This will give people power to share their content to anyone they want. 
 
-Application Components: 
+## Application Components: 
 1. 	User Interface - The UI is organized into different fragments controlled by menu list on the top of the activity. Following are the
 menuitems and their functions: 
 	1. 	ADD/REMOVE: It contains adding & removing server options. Clicking ADD will start a new screen where the user will configure
@@ -29,7 +29,8 @@ bugsfixed.
 2.	Back-end – The backend contains all the memory management, client handling and content distribution. It uses different multitasking
 andmultithreading technique to keep the server running, its operations and error handling. 
 
-Flow of operation – Starting new server creates new process and objects. The server now runs on its own & handle clients in that process 
+### Flow of operation: 
+Starting new server creates new process and objects. The server now runs on its own & handle clients in that process 
 until prompt to stop by the application. Following is the operation flow of the server: 
 1.	Start-up: The starting part of the server operation which will do following steps.
 	1.	Create a new process & label it. 
@@ -52,7 +53,7 @@ until prompt to stop by the application. Following is the operation flow of the 
 	5.	Wait for garbage collection. 
 	6.	Inform to the user. 
 
-Future scope:
+### Future scope:
 1. 	Providing future OS support 
 2.	Providing cross platform compatibility with other platforms 
 3.	Improving client handling algorithms for better performance
