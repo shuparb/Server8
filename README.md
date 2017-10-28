@@ -13,13 +13,6 @@ that domain to their home IP. Then that person can port forward his mobile IP to
 efficient way to save on server prices and also having full control over our data. User can also directly monitor his server for any server 
 traffic on the go. This will give people power to share their content to anyone they want. 
 
-Future scope:
-•	Providing future OS support 
-•	Providing cross platform compatibility with other platforms 
-•	Improving client handling algorithms for better performance
-•	Fixing bugs and crashes users reported 
-•	Hardware specific bugs fixing 
-
 Application Components: 
 User Interface - The UI is organized into different fragments controlled by menu list on the top of the activity. Following are the menu
 items and their functions: 
@@ -57,3 +50,10 @@ c.	Close the port.
 d.	Stop the process. 
 e.	Wait for garbage collection. 
 f.	Inform to the user. 
+
+Future scope:
+•	Providing future OS support 
+•	Providing cross platform compatibility with other platforms 
+•	Improving client handling algorithms for better performance
+•	Fixing bugs and crashes users reported 
+•	Hardware specific bugs fixing 
