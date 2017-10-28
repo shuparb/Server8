@@ -31,30 +31,30 @@ andmultithreading technique to keep the server running, its operations and error
 
 Flow of operation – Starting new server creates new process and objects. The server now runs on its own & handle clients in that process 
 until prompt to stop by the application. Following is the operation flow of the server: 
-i.	Start-up: The starting part of the server operation which will do following steps.
-a.	Create a new process & label it. 
-b.	Open the server directory in the process. 
-c.	Open the desired port at the local IP. 
-d.	Start listening for client request. 
-e.	Inform to the user.
-ii.	Client handling: The middle running part where the server takes request and do following steps. 
-a.	Take request from the client 
-b.	Create new client handler object which contains threads to handle content. 
-c.	Push the given content back to client.
-d.	Close the connection.
-e.	Log all the information.
-f.	Go to a. again.
-iii.	Stop: The end part where the server has to safely stop all the services and process as follows: 
-a.	Terminate the current client if any. 
-b.	Close all the client handler objects safely.
-c.	Close the port.
-d.	Stop the process. 
-e.	Wait for garbage collection. 
-f.	Inform to the user. 
+1.	Start-up: The starting part of the server operation which will do following steps.
+	1.	Create a new process & label it. 
+	2.	Open the server directory in the process. 
+	3.	Open the desired port at the local IP. 
+	4.	Start listening for client request. 
+	5.	Inform to the user.
+2.	Client handling: The middle running part where the server takes request and do following steps. 
+	1.	Take request from the client 
+	2.	Create new client handler object which contains threads to handle content. 
+	3.	Push the given content back to client.
+	4.	Close the connection.
+	5.	Log all the information.
+	6.	Go to a. again.
+3.	Stop: The end part where the server has to safely stop all the services and process as follows: 
+	1.	Terminate the current client if any. 
+	2.	Close all the client handler objects safely.
+	3.	Close the port.
+	4.	Stop the process. 
+	5.	Wait for garbage collection. 
+	6.	Inform to the user. 
 
 Future scope:
-•	Providing future OS support 
-•	Providing cross platform compatibility with other platforms 
-•	Improving client handling algorithms for better performance
-•	Fixing bugs and crashes users reported 
-•	Hardware specific bugs fixing 
+1. 	Providing future OS support 
+2.	Providing cross platform compatibility with other platforms 
+3.	Improving client handling algorithms for better performance
+4.	Fixing bugs and crashes users reported 
+5.	Hardware specific bugs fixing 
