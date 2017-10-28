@@ -30,7 +30,7 @@ bugsfixed.
 andmultithreading technique to keep the server running, its operations and error handling. 
 
 ### Flow of operation: 
-Starting new server creates new process and objects. The server now runs on its own & handle clients in that process 
+   Starting new server creates new process and objects. The server now runs on its own & handle clients in that process 
 until prompt to stop by the application. Following is the operation flow of the server: 
 1.	Start-up: The starting part of the server operation which will do following steps.
 	1.	Create a new process & label it. 
