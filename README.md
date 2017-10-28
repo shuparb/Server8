@@ -20,7 +20,7 @@ Future scope:
 •	Fixing bugs and crashes users reported 
 •	Hardware specific bugs fixing 
 
-FLOW OF OPERATION: 
+Application Components: 
 User Interface - The UI is organized into different fragments controlled by menu list on the top of the activity. Following are the menu
 items and their functions: 
 	ADD/REMOVE: It contains adding & removing server options. Clicking ADD will start a new screen where the user will configure the
