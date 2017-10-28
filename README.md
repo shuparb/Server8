@@ -14,19 +14,19 @@ efficient way to save on server prices and also having full control over our dat
 traffic on the go. This will give people power to share their content to anyone they want. 
 
 Application Components: 
-User Interface - The UI is organized into different fragments controlled by menu list on the top of the activity. Following are the menu
-items and their functions: 
-	ADD/REMOVE: It contains adding & removing server options. Clicking ADD will start a new screen where the user will configure the
+1. 	User Interface - The UI is organized into different fragments controlled by menu list on the top of the activity. Following are the
+menuitems and their functions: 
+2. 	ADD/REMOVE: It contains adding & removing server options. Clicking ADD will start a new screen where the user will configure the
 server with its name, storage, connectivity, protocol & others. Clicking REMOVE will stop the server if running, delete storage and remove 
 the entire server configuration. 
-	SERVERS: It lists all the servers created, running & stopped. The user can toggle the server by clicking the list item server’s
+3. 	SERVERS: It lists all the servers created, running & stopped. The user can toggle the server by clicking the list item server’s
 name. 
-	NETWORK INFO: It contains all the network information about the network where the device is connected like its local IP address,
+4.	NETWORK INFO: It contains all the network information about the network where the device is connected like its local IP address,
 public IP address, MAC address, traffic and other statistics.
-	ABOUT: It’s the application information screen which contains the application description, features, developers, updates, bugs
+5.	ABOUT: It’s the application information screen which contains the application description, features, developers, updates, bugs
 fixed. 
-Back-end – The backend contains all the memory management, client handling and content distribution. It uses different multitasking and
-multithreading technique to keep the server running, its operations and error handling. 
+6. 	Back-end – The backend contains all the memory management, client handling and content distribution. It uses different multitasking
+andmultithreading technique to keep the server running, its operations and error handling. 
 
 Flow of operation – Starting new server creates new process and objects. The server now runs on its own & handle clients in that process 
 until prompt to stop by the application. Following is the operation flow of the server: 
@@ -57,9 +57,3 @@ Future scope:
 •	Improving client handling algorithms for better performance
 •	Fixing bugs and crashes users reported 
 •	Hardware specific bugs fixing 
-
-1. Item 1
-2. Item 2 
-3. Item 3
-    1. Item 3a
-    2. Item 3b
