@@ -13,7 +13,7 @@ that domain to their home IP. Then that person can port forward his mobile IP to
 efficient way to save on server prices and also having full control over our data. User can also directly monitor his server for any server 
 traffic on the go. This will give people power to share their content to anyone they want. 
 
-Future scope: 
+Future scope: \n
 •	Providing future OS support 
 •	Providing cross platform compatibility with other platforms 
 •	Improving client handling algorithms for better performance
