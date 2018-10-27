@@ -1,9 +1,10 @@
 # Server8
 _Android HTTP server using TCP/IP protocol_
 
-The aim is to provide server emulation inside an application. The server will host files for peers on the network. The server can serve 
+My aim is to provide server emulation inside an application. The server will host files for peers on the network. The server can serve 
 websites or files depending on the protocol set on it. The network can be local network or the internet. The Hosted file / service can be 
 accessed by multiple devices at a time providing real time service accessibility. 
+
 	Servers are the other end of today’s information industry. Not only companies but lot of independent creators are coming forward to 
 present their work and talent on the internet. In such situation where web hosting prices are not that cheap and the need to connect with 
 the world is the need. Also many students want to share their projects, notes and study material with other colleagues, here paying monthly 
